@@ -1,5 +1,5 @@
 {
-  "name": "quipu",
+  "name": "quipu-tools",
   "version": "1.0.0",
   "description": "Javascript usefull utils module.",
   "main": "quipu.js",
