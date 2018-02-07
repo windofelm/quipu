@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/windofelm/javascript-module-pattern.git"
+    "url": "git+https://github.com/windofelm/quipu.git"
   },
   "keywords": [
     "utils"
@@ -16,7 +16,7 @@
   "author": "Recep HIDIR <recep.hidir@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/windofelm/javascript-module-pattern/issues"
+    "url": "https://github.com/windofelm/quipu.git/issues"
   },
-  "homepage": "https://github.com/windofelm/javascript-module-pattern#readme"
+  "homepage": "https://github.com/windofelm/quipu.git#readme"
 }
