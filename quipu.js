@@ -75,3 +75,5 @@ var quipu = (function () {
         jsonParse: _jsonParse
     }
 })();
+
+console.log(quipu.isSame("1", 1)); // test
