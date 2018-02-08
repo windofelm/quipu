@@ -1,7 +1,7 @@
-var gulp = require('gulp');
-var babel = require('gulp-babel');
+let gulp = require('gulp');
+let babel = require('gulp-babel');
 const mocha = require('gulp-mocha');
-var minify = require('gulp-minify');
+let minify = require('gulp-minify');
 
 
 gulp.task('default', ['compress', 'testModule'], function () {
