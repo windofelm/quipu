@@ -14,3 +14,6 @@ describe('isSame', function() {
         assert.equal(quipu.isSame(1, "1"), true);
     });
 });
+
+
+// test finish.
