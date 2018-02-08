@@ -78,4 +78,6 @@ var quipu = (function () {
 
 //console.log(quipu.isSame("1", 1));
 
-module.exports = quipu;
+if( typeof module !== 'undefined' && typeof module.exports !== 'undefined'){
+    module.exports = quipu;
+}
