@@ -1,3 +1,5 @@
+'use strict';
+
 /**
 ** utils.js
 ** version : 0.0.1
@@ -6,7 +8,7 @@
 ** utils.com
 **/
 ;
-var quipu = (function () {
+var quipu = function () {
 
     function _isSame(x, y) {
         return x == y;
@@ -62,8 +64,15 @@ var quipu = (function () {
         return JSON.parse(data);
     }
 
+    var materials = ['Hydrogen', 'Helium', 'Lithium', 'Beryllium'];
 
-    return{
+    function _mapArrow() {
+        return materials.map(function (material) {
+            return material.length;
+        });
+    }
+
+    return {
         isSame: _isSame,
         isNotSame: _isNotSame,
         isEmail: _isEmail,
@@ -72,12 +81,13 @@ var quipu = (function () {
         rgbToHex: _rgbToHex,
         findMax: _findMax,
         findMin: _findMin,
-        jsonParse: _jsonParse
-    }
-})();
+        jsonParse: _jsonParse,
+        mapArrow: _mapArrow
+    };
+}();
 
 //console.log(quipu.isSame("1", 1));
 
-if( typeof module !== 'undefined' && typeof module.exports !== 'undefined'){
+if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
     module.exports = quipu;
 }

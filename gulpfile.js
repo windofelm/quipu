@@ -1,4 +1,5 @@
 var gulp = require('gulp');
+var babel = require('gulp-babel');
 const mocha = require('gulp-mocha');
 var minify = require('gulp-minify');
 
@@ -21,6 +22,9 @@ gulp.task('compress', function() {
             },
             exclude: ['tasks'],
             ignoreFiles: ['.combo.js', '-min.js']
+        }))
+        .pipe(babel({
+            presets: ['es2015']
         }))
         .pipe(gulp.dest('dist'))
 });

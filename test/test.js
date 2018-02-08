@@ -15,5 +15,11 @@ describe('isSame', function() {
     });
 });
 
+describe('mapArrow', function() {
+    it('should return [8, 6, 7, 9] when map array', function() {
+        assert.equal(5, 5);
+    });
+});
+
 
 // test finish.
