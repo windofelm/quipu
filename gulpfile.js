@@ -3,8 +3,8 @@ const mocha = require('gulp-mocha');
 var minify = require('gulp-minify');
 
 
-gulp.task('default', ['testModule', 'compress'], function () {
-
+gulp.task('default', ['compress', 'testModule'], function () {
+    console.log("All process completed successfully.");
 });
 
 gulp.task('testModule', function () {
