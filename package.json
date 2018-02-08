@@ -1,6 +1,6 @@
 {
   "name": "quipu-tools",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Javascript usefull utils module.",
   "main": "./dist/quipu.min.js",
   "scripts": {
