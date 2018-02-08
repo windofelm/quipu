@@ -2,7 +2,7 @@
 Quipu tools include usefull javascript utils. 
 
 ## Getting Started
-Quipu tools use iife module pattern. Can use public methods.
+Quipu tools use iife module pattern. Can use public methods. Tested successfully.
 
 ## Installation
 ```
