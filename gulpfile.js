@@ -26,5 +26,5 @@ gulp.task('compress', function() {
         .pipe(babel({
             presets: ['es2015']
         }))
-        .pipe(gulp.dest('dist'))
+        .pipe(gulp.dest('dist'));
 });
