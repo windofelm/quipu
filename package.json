@@ -4,7 +4,7 @@
   "description": "Javascript usefull utils module.",
   "main": "./dist/quipu.min.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,8 @@
   "homepage": "https://github.com/windofelm/quipu.git#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-minify": "^2.1.0"
+    "gulp-minify": "^2.1.0",
+    "gulp-mocha": "^5.0.0",
+    "mocha": "^5.0.0"
   }
 }
