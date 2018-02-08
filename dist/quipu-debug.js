@@ -77,3 +77,5 @@ var quipu = (function () {
 })();
 
 console.log(quipu.isSame("1", 1)); // test
+
+module.exports = quipu;
