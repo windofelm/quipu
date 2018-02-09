@@ -3,9 +3,9 @@
 /**
 ** utils.js
 ** version : 0.0.1
-** authors : syntaxe, utils.js contributors
+** authors : syntaxe, quipu.js contributors
 ** license : MIT
-** utils.com
+** quipu.com
 **/
 ;
 var quipu = function () {
