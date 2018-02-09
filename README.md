@@ -1,6 +1,7 @@
 # Quipu tools.
-Quipu tools include usefull javascript utils. 
-![alt text](https://www.maa.org/sites/default/files/images/cms_upload/Illustration_405470.jpg)
+Quipu tools include usefull javascript utils.
+ 
+![alt text](http://4.bp.blogspot.com/-F_razbBelHM/UbCX53p1aSI/AAAAAAAAAIo/L00JC8gCa-w/s1600/quipu.jpg)
 
 ## Getting Started
 Quipu tools use iife module pattern. Can use public methods, tested successfully.
