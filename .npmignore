@@ -1,5 +1,6 @@
 lib
 test
+assets
 .idea
 .svn
 .DS_Store
