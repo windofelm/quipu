@@ -28,5 +28,8 @@
     "gulp-minify": "^2.1.0",
     "gulp-mocha": "^5.0.0",
     "mocha": "^5.0.0"
+  },
+  "dependencies": {
+    "moment": "^2.20.1"
   }
 }
