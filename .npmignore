@@ -1,4 +1,6 @@
 lib
 test
-gulpfile.js
 node_modules
+gulpfile.js
+index.html
+main.js
