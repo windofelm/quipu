@@ -8,11 +8,6 @@ gulp.task('default', ['compress', 'testModule'], function () {
     console.log("All process completed successfully.");
 });
 
-gulp.task('testModule', function () {
-    return gulp.src('test/*.js', { read: false })
-        .pipe(mocha({ reporter: 'nyan' }));
-});
-
 gulp.task('compress', function() {
     gulp.src('lib/*.js')
         .pipe(minify({
@@ -27,4 +22,9 @@ gulp.task('compress', function() {
             presets: ['es2015']
         }))
         .pipe(gulp.dest('dist'));
+});
+
+gulp.task('testModule', function () {
+    return gulp.src('test/*.js', { read: false })
+        .pipe(mocha({ reporter: 'nyan' }));
 });
