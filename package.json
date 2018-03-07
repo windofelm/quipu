@@ -4,6 +4,7 @@
   "description": "Javascript usefull utils module.",
   "main": "./dist/quipu.min.js",
   "scripts": {
+    "build": "gulp",
     "test": "mocha"
   },
   "repository": {
