@@ -1,5 +1,5 @@
-var assert = require('assert');
-var quipu = require('../dist/quipu.min');
+const assert = require('assert');
+const quipu = require('../dist/quipu.min');
 
 describe('Array', function() {
     describe('#indexOf()', function() {
@@ -20,6 +20,5 @@ describe('mapArrow', function() {
         assert.equal(5, 5);
     });
 });
-
 
 // test finish.
