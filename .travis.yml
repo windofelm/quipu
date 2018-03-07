@@ -1,10 +1,13 @@
 language: node_js
 node_js:
-  - "node"
+- node
 install:
-  - npm install
+- npm install
 script:
-  - npm test
+- npm test
 cache:
   directories:
-    - "node_modules"
+  - node_modules
+env:
+  global:
+    secure: iNHqTFwPOpFlA2JYw8VHRw7lcfzq63rQAPQ774mVTdoSthzBbjHyFYHyBHdWQLyYbk9yIxj2pJ8gh4+k5KlwwT5ztbGmpqdebFP7PMs6jDFQLgXHyp08dh/Do1phEoEEPecjWIBG8jchEsEiN/lu4sQaT5Nyo00aaZtZn21cGPbmDb8h9lGV8jDIYEMwAURPWRPd6PhxNCOyymbmBExylcQZTRZRTplhM96aYzdrSW8lVmXxXk1wnXWS+tgzAGQttiLMbZ4SyIW1LUo3v/vpTHLdo9qwEG4eLnUEMbsOUSiPRpmGeNzBlXdhWtNj20ddPunoZUkwvo8LN4t0q/Hh2vntJRLRo6Ac2O8Udi9J2s81ESXtpRyO1CZh3keIUZIAIILaYaM1MtJfKqm9ABPw9ifRgkRV6iQWjjfVVcJ0sEH/kwehDxTHsAcrNEljCU0LDqlvIdJPOZA7tozmlfxAwQKQW70vejYD4cDKzkPVejh0RR4dDV/65u8mgSfezTuEIHGWyAGQ5Oo8IRuCDJLOrpDjRl+IvH0wNXAMFmaHySFSS+00k70Vo31MrpTNYQ6ZdPdWITia+KpgYIe1gzoCEEwAx1MF+gltNd56GaGUYgBUgSFaxDPbEvf8Liu8FpVdnIEZ8T9lUbn7uWk7rcQmYv+HPs5+0ThRwRi3shKxE2Q=
