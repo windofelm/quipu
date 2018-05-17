@@ -5,7 +5,8 @@
   "main": "./dist/quipu.min.js",
   "scripts": {
     "build": "gulp",
-    "test": "mocha"
+    "test": "mocha",
+    "test-jest": "jest"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
     "gulp-babel": "^7.0.1",
     "gulp-minify": "^2.1.0",
     "gulp-mocha": "^5.0.0",
+    "jest": "^22.4.3",
     "mocha": "^5.0.0"
   },
   "dependencies": {
