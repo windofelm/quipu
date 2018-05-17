@@ -1,5 +1,5 @@
 const assert = require('assert');
-const quipu = require('../dist/quipu.min');
+const quipu = require('../dist/bundle.min');
 
 function fetchData(callbackFunction){
     let foo = "peanut butter";

@@ -4,12 +4,16 @@ const mocha = require('gulp-mocha');
 let minify = require('gulp-minify');
 
 
-gulp.task('default', ['compress', 'testModule'], function () {
+// gulp.task('default', ['compress', 'testModule'], function () {
+//     console.log("All process completed successfully.");
+// });
+
+gulp.task('default', ['compress'], function () {
     console.log("All process completed successfully.");
 });
 
 gulp.task('compress', function() {
-    gulp.src('lib/*.js')
+    gulp.src('src/*.js')
         .pipe(minify({
             ext:{
                 src:'.js',
@@ -24,7 +28,7 @@ gulp.task('compress', function() {
         .pipe(gulp.dest('dist'));
 });
 
-gulp.task('testModule', function () {
+/*gulp.task('testModule', function () {
     return gulp.src('test/*.js', { read: false })
         .pipe(mocha({ reporter: 'nyan' }));
-});
+});*/
